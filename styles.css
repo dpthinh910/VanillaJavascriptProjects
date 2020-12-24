@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 67.5%;
+}
+/*
+====================
+* Fonts *
+====================
+*/
+
+h1 {
+  font-size: 3.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+  color: white;
+  background-color: lightskyblue;
+  text-transform: uppercase;
+  transition: background ease-in-out 0.6s;
+}
+#colorDisplay {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-right: 0.5em;
+}
+
+/*
+====================
+* Layout *
+====================
+*/
+.mode-container {
+  text-align: center;
+  padding-top: 2rem;
+}
+.mode-container span {
+  display: inline-block;
+  padding: 0 0.5em;
+  border: 0.2rem solid lightblue;
+  margin: 0 0.5em;
+  font-family: monospace, sans-serif;
+  font-weight: 600;
+  visibility: hidden;
+  font-size: 2.5rem;
+}
+.square-container {
+  margin: 2rem auto;
+  width: 50rem;
+  min-width: 80%;
+  transition: background 1s;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1;
+}
+.square {
+  width: 30%;
+  background-color: lightskyblue;
+  border-radius: 2rem;
+  float: left;
+  margin: 1.6%;
+  padding-bottom: 30%;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: 0.5s;
+}
+.selected {
+  color: white;
+  background-color: lightskyblue;
+}
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background: lightskyblue;
+}
